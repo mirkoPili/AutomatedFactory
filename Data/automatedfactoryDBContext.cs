@@ -15,7 +15,10 @@ namespace AutomatedFactory.Data
 		}
 
 		public DbSet<tagliaferro> tagliaferro { get; set; }
+
 		public DbSet<piegaferro> piegaferro { get; set; }
+
+		public DbSet<verniciaferro> verniciaferro { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
