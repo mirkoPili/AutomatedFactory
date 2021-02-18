@@ -5,14 +5,16 @@ using System.Threading.Tasks;
 
 namespace AutomatedFactory.Model
 {
-    public class verniciaferro
+
+    public class piegaferro
     {
 
-        public float angoloInclinazione { get; set; }
+		public int id { get; set; }
+		public float angoloInclinazione { get; set; }
 
-        public boolean avvitamento { get; set; }
+        public bool avvitamento { get; set; }
 
-        public verniciaferro ()
+        public piegaferro ()
 	{
             
 	}
