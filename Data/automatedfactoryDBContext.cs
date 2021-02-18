@@ -28,6 +28,15 @@ namespace AutomatedFactory.Data
 				e.Property(e => e.TipoMetallo);
 				e.Property(e => e.Filettatura);
 			});
+
+			modelBuilder.Entity<piegaferro>(e =>
+			{
+				e.ToTable("Piegaferro");
+				e.HasKey(e => e.id);
+				e.Property(e => e.angoloInclinazione);
+				e.Property(e => e.avvitamento);
+				
+			});
 		}
 	}
 }

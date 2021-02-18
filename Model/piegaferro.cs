@@ -7,5 +7,14 @@ namespace AutomatedFactory.Model
 {
     public class verniciaferro
     {
+
+        public float angoloInclinazione { get; set; }
+
+        public boolean avvitamento { get; set; }
+
+        public verniciaferro ()
+	{
+            
+	}
     }
 }
