@@ -24,12 +24,12 @@ namespace AutomatedFactory.Repository
             return Salva();
         }
 
-        public async Task<IEnumerable<verniciaferro>> getAllAsncy()
+        public async Task<IEnumerable<Verniciaferro>> getAllAsncy()
         {
             return await _db.verniciaferro.ToListAsync();
         }
 
-        public bool InsArticoli(verniciaferro verniciaFerro)
+        public bool InsArticoli(Verniciaferro verniciaFerro)
         {
             _db.Add(verniciaFerro);
             return Salva();
@@ -43,13 +43,13 @@ namespace AutomatedFactory.Repository
 
 
 
-        public async Task<verniciaferro> Selbyid(int id)
+        public async Task<Verniciaferro> Selbyid(int id)
         {
             return await _db.verniciaferro.FindAsync(id);
         }
 
 
-        public bool Updpiegaferro(verniciaferro verniciaFerro)
+        public bool Updpiegaferro(Verniciaferro verniciaFerro)
         {
             _db.verniciaferro.Update(verniciaFerro);
             return Salva();
