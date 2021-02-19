@@ -14,10 +14,10 @@ namespace AutomatedFactory.Controllers
     {
         private readonly IVerniciaferroRepository _repository;
 
-        public VerniciaferroController(IVerniciaferroRepository repository)
-        {
+		public VerniciaController(IVerniciaferroRepository repository)
+		{
             _repository = repository;
-        }
+		}
 
         [HttpGet("getall")]
         public async Task<ActionResult<IEnumerable<Verniciaferro>>> getAll()

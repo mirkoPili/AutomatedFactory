@@ -8,10 +8,10 @@ namespace AutomatedFactory.Repository
 {
     public interface IVerniciaferroRepository
     {
-        public Task<verniciaferro> Selbyid(int id);
-        public Task<IEnumerable<verniciaferro>> getAllAsncy();
-        bool InsArticoli(verniciaferro verniciaFerro);
-        bool Updpiegaferro(verniciaferro verniciaFerro);
+        public Task<Verniciaferro> Selbyid(int id);
+        public Task<IEnumerable<Verniciaferro>> getAllAsncy();
+        bool InsArticoli(Verniciaferro verniciaFerro);
+        bool Updpiegaferro(Verniciaferro verniciaFerro);
         bool DelProcesso(int id);
         bool Salva();
     }
