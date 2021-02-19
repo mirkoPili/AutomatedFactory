@@ -12,7 +12,7 @@ namespace AutomatedFactory.Repository
 	{
 		private readonly automatedfactoryDBContext _db;
 
-		public PiegaferroRepositoryImp(automatedfactoryDBContext db)
+		public PiegaFerroRepositoryImp(automatedfactoryDBContext db)
 		{
 			_db = db;
 		}
@@ -43,16 +43,19 @@ namespace AutomatedFactory.Repository
 
 
 
-		public async Task<tagliaferro> Selbyid(int id)
+		public async Task<piegaferro> Selbyid(int id)
 		{
-			return await _db.tagliaferro.FindAsync(id);
+			return await _db.piegaferro.FindAsync(id);
 		}
 
-		public bool Updtagliaferro(tagliaferro tagliaFerro)
+
+		public bool Updpiegaferro(piegaferro piegaFerro)
 		{
-			_db.tagliaferro.Update(tagliaFerro);
+			_db.piegaferro.Update(piegaFerro);
 			return Salva();
 		}
 
+		
+		
 	}
 }

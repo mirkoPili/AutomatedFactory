@@ -39,6 +39,7 @@ namespace AutomatedFactory
 			services.AddDbContext<automatedfactoryDBContext>(c => c.UseSqlServer(connectionString));
 
 			services.AddTransient<ITagliaferroRepository, TagliaFeroRepositoryImp>();
+			services.AddTransient<IPiegaferroRepository, PiegaFerroRepositoryImp>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

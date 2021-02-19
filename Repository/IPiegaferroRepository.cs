@@ -11,7 +11,7 @@ namespace AutomatedFactory.Repository
 		public Task<piegaferro> Selbyid(int id);
 		public Task<IEnumerable<piegaferro>> getAllAsncy();
 		bool InsArticoli(piegaferro piegaFerro);
-		bool Updtagliaferro(piegaferro piegaFerro);
+		bool Updpiegaferro(piegaferro piegaFerro);
 		bool DelProcesso(int id);
 		bool Salva();
 	}
