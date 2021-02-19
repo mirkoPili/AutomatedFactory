@@ -8,7 +8,7 @@ namespace AutomatedFactory.Model
     public class tagliaferro
     {
 
-		//scrivete prop e premete tab per creare in automatico il metodo
+		//scrivere prop e premere tab per creare in automatico il metodo
 
 		public int id { get; set; }
 
@@ -19,7 +19,7 @@ namespace AutomatedFactory.Model
         public int Filettatura { get; set; }
 
 
-        //ctro +tab
+        //ctro + tab
         public tagliaferro()
         {
                 
