@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Contrader\\OneDrive\\Desktop\\AutomatedFactory (2)\\AutomatedFactory\\AutomatedFactory.csproj": {}
+    "D:\\Contrader\\NET\\AutomatedFactory\\AutomatedFactory.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Contrader\\OneDrive\\Desktop\\AutomatedFactory (2)\\AutomatedFactory\\AutomatedFactory.csproj": {
+    "D:\\Contrader\\NET\\AutomatedFactory\\AutomatedFactory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Contrader\\OneDrive\\Desktop\\AutomatedFactory (2)\\AutomatedFactory\\AutomatedFactory.csproj",
+        "projectUniqueName": "D:\\Contrader\\NET\\AutomatedFactory\\AutomatedFactory.csproj",
         "projectName": "AutomatedFactory",
-        "projectPath": "C:\\Users\\Contrader\\OneDrive\\Desktop\\AutomatedFactory (2)\\AutomatedFactory\\AutomatedFactory.csproj",
-        "packagesPath": "C:\\Users\\Contrader\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Contrader\\OneDrive\\Desktop\\AutomatedFactory (2)\\AutomatedFactory\\obj\\",
+        "projectPath": "D:\\Contrader\\NET\\AutomatedFactory\\AutomatedFactory.csproj",
+        "packagesPath": "C:\\Users\\AlbertoF\\.nuget\\packages\\",
+        "outputPath": "D:\\Contrader\\NET\\AutomatedFactory\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Contrader\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AlbertoF\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -20,7 +20,7 @@ namespace AutomatedFactory.Controllers
         }
 
         [HttpGet("getall")]
-        public async Task<ActionResult<IEnumerable<verniciaferro>>> getAll()
+        public async Task<ActionResult<IEnumerable<Verniciaferro>>> getAll()
         {
             var listVernicia = await _repository.getAllAsncy();
 
@@ -28,7 +28,7 @@ namespace AutomatedFactory.Controllers
 
         }
         [HttpGet("{id}")]
-        public async Task<ActionResult<verniciaferro>> getCodiceProduzione(int id)
+        public async Task<ActionResult<Verniciaferro>> getCodiceProduzione(int id)
         {
             var produzione = await _repository.Selbyid(id);
 
@@ -36,7 +36,7 @@ namespace AutomatedFactory.Controllers
         }
 
         [HttpPost]
-        public ActionResult insert([FromBody] verniciaaferro verniciaFerro)
+        public ActionResult insert([FromBody] Verniciaferro verniciaFerro)
         {
             var vernicia = _repository.InsArticoli(verniciaFerro);
 
@@ -50,13 +50,7 @@ namespace AutomatedFactory.Controllers
 
             return Accepted(deleteProcesso);
         }
-        [HttpPut]
-        public ActionResult update(verniciaferro verniciaferro)
-        {
-            var update = _repository.Updverniciaferro(verniciaferro);
-
-            return Accepted(update);
-        }
+        
 
     }
 
