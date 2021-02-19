@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controllers",
+    "\\Data",
+    "\\Model"
   ],
-  "SelectedNode": "\\AutomatedFactory.sln",
+  "SelectedNode": "\\Data\\automatedfactoryDBContext.cs",
   "PreviewInSolutionExplorer": false
 }
