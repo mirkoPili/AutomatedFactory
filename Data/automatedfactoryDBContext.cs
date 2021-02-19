@@ -41,7 +41,7 @@ namespace AutomatedFactory.Data
 				e.Property(e => e.avvitamento);
 				
 			});
-			modelBuilder.Entity<verniciaferro>(e =>
+			modelBuilder.Entity<Verniciaferro>(e =>
 			{
 				e.ToTable("Verniciaferro");
 				e.HasKey(e => e.id);
