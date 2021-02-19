@@ -48,11 +48,12 @@ namespace AutomatedFactory.Repository
 			return await _db.tagliaferro.FindAsync(id);
 		}
 
-		public bool UpdArticoli(tagliaferro tagliaFerro)
+		public bool Updtagliaferro(tagliaferro tagliaFerro)
 		{
 			_db.tagliaferro.Update(tagliaFerro);
 			return Salva();
 		}
+
 	}
 }
 

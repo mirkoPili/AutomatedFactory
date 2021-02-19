@@ -50,6 +50,13 @@ namespace AutomatedFactory.Controllers
 
 			return Accepted(deleteProcesso);
 		}
+		[HttpPut]
+		public ActionResult update(tagliaferro tagliaferro)
+		{
+			var update = _repository.Updtagliaferro(tagliaferro);
+
+			return Accepted(update);
+		}
 
 	}
 

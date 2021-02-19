@@ -11,7 +11,7 @@ namespace AutomatedFactory.Repository
 		public Task<tagliaferro> Selbyid(int id);
 		public Task<IEnumerable<tagliaferro>> getAllAsncy();
 		bool InsArticoli(tagliaferro tagliaFerro);
-		bool UpdArticoli(tagliaferro tagliaFerro);
+		bool Updtagliaferro(tagliaferro tagliaFerro);
 		bool DelProcesso(int id);
 		bool Salva();
 	}
