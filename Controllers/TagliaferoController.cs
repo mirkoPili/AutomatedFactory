@@ -43,6 +43,13 @@ namespace AutomatedFactory.Controllers
 			return Accepted(taglia);
 		}
 
+		[HttpDelete("{id}")]
+		public ActionResult delete(int id)
+		{
+			var deleteProcesso = _repository.DelProcesso(id);
+
+			return Accepted(deleteProcesso);
+		}
 
 	}
 

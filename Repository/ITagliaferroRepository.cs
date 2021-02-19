@@ -12,7 +12,7 @@ namespace AutomatedFactory.Repository
 		public Task<IEnumerable<tagliaferro>> getAllAsncy();
 		bool InsArticoli(tagliaferro tagliaFerro);
 		bool UpdArticoli(tagliaferro tagliaFerro);
-		bool DelArticoli(tagliaferro tagliaFerro);
+		bool DelProcesso(int id);
 		bool Salva();
 	}
 }

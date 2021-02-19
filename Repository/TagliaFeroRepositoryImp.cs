@@ -17,9 +17,10 @@ namespace AutomatedFactory.Repository
 			_db = db;
 		}
 
-		public bool DelArticoli(tagliaferro tagliaFerro)
+		public bool DelProcesso(int id)
 		{
-			_db.tagliaferro.Remove(tagliaFerro);
+			var trovaId = _db.tagliaferro.Find(id);
+			_db.tagliaferro.Remove(trovaId);
 			return Salva();
 		}
 
